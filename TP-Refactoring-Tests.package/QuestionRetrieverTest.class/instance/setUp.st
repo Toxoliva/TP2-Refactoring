@@ -16,7 +16,7 @@ setUp
 	cuoora addUser: user1; addUser: user2; addUser: user3.
 	
 	questionUser1TopicOO1 := Question newWithTitle: 'How to create a class in Pharo' description: '' user: user1 topic: topicOO1.
-	questionUser3TopicOO2 := Question newWithTitle: 'How to create a WAComponent for...' description: '' user: user3 topic: topicOO2.
+	questionUser3TopicOO2 := Question newWithTitle: 'How to create a WAComponent for...' description: '' user: user3 topic: 	topicOO2.
 
 	cuoora addQuestion: questionUser1TopicOO1 forUser:user1.
 	cuoora addQuestion: questionUser3TopicOO2 forUser:user3.

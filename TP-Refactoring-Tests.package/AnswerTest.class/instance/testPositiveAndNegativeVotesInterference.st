@@ -1,6 +1,5 @@
 testing
 testPositiveAndNegativeVotesInterference
-	
 	answer addVote: (Vote user: (User new) dislikesPublication: answer).
 	self assert: (answer positiveVotes size) equals: 0.
 	
