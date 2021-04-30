@@ -1,15 +1,16 @@
 {
-	"commentStamp" : "fgerst 4/28/2021 19:48",
-	"super" : "Post",
+	"commentStamp" : "TomasOliva 4/30/2021 17:13",
+	"super" : "Object",
 	"category" : "TP-Refactoring-Model",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"title",
-		"answers",
-		"topics"
+		"timestamp",
+		"user",
+		"votes",
+		"description"
 	],
-	"name" : "Question",
+	"name" : "Post",
 	"type" : "normal"
 }
