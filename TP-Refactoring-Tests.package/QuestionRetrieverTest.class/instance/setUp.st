@@ -21,7 +21,7 @@ setUp
 	cuoora addQuestion: questionUser1TopicOO1 forUser:user1.
 	cuoora addQuestion: questionUser3TopicOO2 forUser:user3.
 	
-	socialRetriever := QuestionRetriever new: cuoora and: #social.
-	topicsRetriever := QuestionRetriever new: cuoora and: #topics.
-	newsRetriever := QuestionRetriever new: cuoora and: #news.
-	popularTodayRetriever := QuestionRetriever new: cuoora and: #popularToday.
+	socialRetriever := SocialRetriever new.
+	topicsRetriever := TopicsRetriever new.
+	newsRetriever := NewsRetriever cuoora: cuoora.
+	popularTodayRetriever := PopularRetriever cuoora: cuoora.

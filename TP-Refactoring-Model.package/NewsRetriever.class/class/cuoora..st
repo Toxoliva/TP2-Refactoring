@@ -1,3 +1,3 @@
 instance creation
-new: cuoora
+cuoora: cuoora
 	^ self new cuoora: cuoora
