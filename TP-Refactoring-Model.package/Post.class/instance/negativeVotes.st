@@ -1,4 +1,4 @@
-as yet unclassified
+calculating
 negativeVotes
 	| r |
 	r := OrderedCollection new.

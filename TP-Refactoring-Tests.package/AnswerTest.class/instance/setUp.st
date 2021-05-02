@@ -1,6 +1,6 @@
 setup
 setUp
 	answer := Answer
-		new: 'An answer'
+		newWithDescription: 'An answer'
 		user: User new
 		question: Question new
