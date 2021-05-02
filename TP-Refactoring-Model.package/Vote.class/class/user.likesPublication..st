@@ -1,6 +1,6 @@
 instance creation
 user: aUser likesPublication: aPublication
 	^ self new
-		user: aUser;
-		publication: aPublication;
-		yourself
+		initializeUser: aUser
+		publication: aPublication
+		asLike: true yourself
