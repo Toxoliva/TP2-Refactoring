@@ -1,4 +1,3 @@
 accessing
 maxSizeOfQuestionCollection
-
-	^100
+	^ 100

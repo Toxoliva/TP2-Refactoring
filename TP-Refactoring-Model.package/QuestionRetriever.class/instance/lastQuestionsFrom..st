@@ -1,5 +1,4 @@
 accessing
 lastQuestionsFrom: aCollection
-
-	^aCollection last: ( self maxSizeOfQuestionCollection min: aCollection size).
-	
+	^ aCollection
+		last: (self maxSizeOfQuestionCollection min: aCollection size)
