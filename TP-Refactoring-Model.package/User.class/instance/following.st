@@ -1,3 +1,3 @@
-accessing
+accessing - deprecated
 following
 	^ following

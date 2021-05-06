@@ -1,3 +1,3 @@
-accessing
+constants
 maxSizeOfQuestionCollection
 	^ 100
