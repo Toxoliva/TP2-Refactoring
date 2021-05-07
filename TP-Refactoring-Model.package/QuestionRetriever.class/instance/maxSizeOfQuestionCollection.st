@@ -1,4 +1,3 @@
-accessing
+constants
 maxSizeOfQuestionCollection
-	"Este metodo es para evitar el olor 'magic number'"
-	^100
+	^ 100
