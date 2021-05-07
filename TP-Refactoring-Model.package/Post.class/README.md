@@ -1,1 +1,1 @@
-Clase Post agregada!!
+Post class
