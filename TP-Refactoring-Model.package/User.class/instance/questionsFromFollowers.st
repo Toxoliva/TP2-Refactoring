@@ -1,4 +1,3 @@
-accessing
+retrieving
 questionsFromFollowers
-
-	^self following flatCollect: [ :follow | follow questions ].
+	^ following flatCollect: [ :follow | follow questions ]
